@@ -1,0 +1,30 @@
+.thanks-main{
+    height: 90vh;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.thanks-card{
+    position: relative;
+    top: -10vh;
+    height: 12vh;
+    width: 60%;
+    background-color: #fff;
+    box-shadow: 0px 1px 2px 1px gray;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.thanks-card h1{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 500;
+}
+.thanks-card p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}

@@ -1,0 +1,47 @@
+.header-main{
+    height: 8vh;
+    width: 100%;
+    background-color: #3f51b5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+.login-register{
+    display: flex;
+    gap: 1.2rem;
+}
+
+.signin{
+    padding: 1.2rem 1.5rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.signin a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+.logo-section{
+    display: flex;
+    /* background-color: red; */
+    width: 20%;
+    align-items: center;
+    color: #fff;
+}
+
+.logo-icon{
+    height: 5vh;
+    width: 60%;
+    color: #fff;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+.web-name{
+    font-size: 2rem;
+    font-weight: 900;
+}
